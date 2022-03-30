@@ -1,7 +1,7 @@
 export type UGCSearchResponse = {
 	data: Array<{
 		id: string;
-		kind: 'UgcGameVariant' | 'Map';
+		kind: 'ugcgamevariant' | 'map';
 		name: string;
 		description: string;
 		tags: string[];
