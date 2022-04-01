@@ -6,7 +6,8 @@ export type ToolingXboxNetworkPlayersProfileResponse = {
 		};
 		status: {
 			success: boolean;
-			reason?:
+			reason:
+				| 'found'
 				| 'not_found'
 				| 'bad_request'
 				| 'too_many_requests'
