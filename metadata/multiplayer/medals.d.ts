@@ -14,7 +14,7 @@ export type MetadataMultiplayerMedalsResponse = {
 	additional: {
 		count: number;
 		parameters: {
-			ids: string[];
+			ids: number[];
 		};
 	};
 };

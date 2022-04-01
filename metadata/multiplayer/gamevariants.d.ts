@@ -7,7 +7,7 @@ export type MetadataMultiplayerGameVariantsResponse = {
 	additional: {
 		count: number;
 		parameters: {
-			ids: string[];
+			ids: number[];
 		};
 	};
 };

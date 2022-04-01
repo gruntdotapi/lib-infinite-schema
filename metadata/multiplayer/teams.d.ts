@@ -7,7 +7,7 @@ export type MetadataMultiplayerTeamsResponse = {
 	additional: {
 		count: number;
 		parameters: {
-			ids: string[];
+			ids: number[];
 		};
 	};
 };
