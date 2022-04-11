@@ -18,6 +18,7 @@ export type StatsPlayersServiceRecordMultiplayerResponse = {
 					damage: {
 						taken: number;
 						dealt: number;
+						average: number;
 					};
 					shots: {
 						fired: number;
@@ -80,6 +81,7 @@ export type StatsPlayersServiceRecordMultiplayerResponse = {
 						left: number;
 					};
 					total: number;
+					win_rate: number;
 				};
 				time_played: {
 					seconds: number;
