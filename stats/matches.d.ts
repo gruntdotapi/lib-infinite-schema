@@ -212,6 +212,7 @@ export type StatsMatchesResponses = {
 						};
 					};
 					mode: null | Record<string, any>;
+					mmr: number | null;
 				};
 				rank: number;
 				outcome: 'won' | 'left' | 'loss' | 'unknown';
