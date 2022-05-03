@@ -4,6 +4,7 @@ export type ArticlesResponse = {
 		subtitle: string;
 		message: string;
 		image_url: string | null;
+		external_url: string | null;
 	}>;
 	additional: {
 		count: number;

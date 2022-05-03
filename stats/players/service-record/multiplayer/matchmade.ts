@@ -9,6 +9,7 @@ export type StatsPlayersServiceRecordMultiplayerResponse = {
 						assists: number;
 						betrayals: number;
 						suicides: number;
+						spawns: number;
 						vehicles: {
 							destroys: number;
 							hijacks: number;
@@ -68,6 +69,10 @@ export type StatsPlayersServiceRecordMultiplayerResponse = {
 					};
 					kda: number;
 					kdr: number;
+					average_life_duration: {
+						seconds: number;
+						human: string;
+					};
 					scores: {
 						personal: number;
 						points: number;
@@ -99,7 +104,7 @@ export type StatsPlayersServiceRecordMultiplayerResponse = {
 		};
 		parameters: {
 			gamertag: string;
-			filter: 'matchmade' | 'custom';
+			season: number;
 		};
 	};
 };

@@ -56,6 +56,7 @@ export type StatsPlayersMatchesResponse = {
 							assists: number;
 							betrayals: number;
 							suicides: number;
+							spawns: number;
 							vehicles: {
 								destroys: number;
 								hijacks: number;
@@ -74,6 +75,10 @@ export type StatsPlayersMatchesResponse = {
 						};
 						kda: number;
 						kdr: number;
+						average_life_duration: {
+							seconds: number;
+							human: string;
+						};
 					};
 				};
 				rank: number;
