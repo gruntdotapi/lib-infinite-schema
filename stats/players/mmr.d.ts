@@ -1,6 +1,6 @@
 export type StatsPlayersMMRResponse = {
 	data: {
-		value: string | null;
+		value: number | null;
 		match: {
 			id: string | null;
 		};
