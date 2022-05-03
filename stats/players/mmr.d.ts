@@ -1,8 +1,8 @@
 export type StatsPlayersMMRResponse = {
 	data: {
-		value: string | number;
+		value: string | null;
 		match: {
-			id: string | number;
+			id: string | null;
 		};
 	};
 	additional: {
