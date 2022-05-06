@@ -8,6 +8,7 @@ export type StatsPlayersMMRResponse = {
 	additional: {
 		parameters: {
 			gamertag: string;
+			kind: string;
 		};
 	};
 };
