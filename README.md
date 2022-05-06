@@ -4,6 +4,7 @@ Response schemas for halo/infinite library on [Autocode](https://autocode.com/li
 
 ### Available Versions
 
+-   [1.3.2](https://github.com/halodotapi/lib-infinite-schema/tree/1.3.2)
 -   [1.3.1](https://github.com/halodotapi/lib-infinite-schema/tree/1.3.1)
 -   [1.2.0](https://github.com/halodotapi/lib-infinite-schema/tree/1.2.0)
 -   [1.1.0](https://github.com/halodotapi/lib-infinite-schema/tree/1.1.0)
