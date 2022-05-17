@@ -53,7 +53,7 @@ export type ToolingInfinitePlayersPresenceResponse = {
 						};
 					};
 					map: {
-						name: 'Recharge';
+						name: string;
 						asset: {
 							id: string;
 							version: string;
