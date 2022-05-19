@@ -91,9 +91,6 @@ export type StatsPlayersServiceRecordMultiplayerResponse = {
 	additional: {
 		parameters: {
 			gamertag: string;
-			season: number | null;
-			playlist_id: string | null;
-			category_id: string | null;
 		};
 	};
 };
