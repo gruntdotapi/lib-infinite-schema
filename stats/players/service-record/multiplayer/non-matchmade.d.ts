@@ -1,4 +1,4 @@
-export type StatsPlayersServiceRecordMultiplayerResponse = {
+export type StatsPlayersServiceRecordMultiplayerNonMatchmadeResponse = {
 	data: {
 		core: {
 			summary: {
