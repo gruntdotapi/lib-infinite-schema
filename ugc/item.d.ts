@@ -1,16 +1,11 @@
-export type UGCSearchResponse = {
-	data: Array<{
+export type UGCItemDetailsResponse = {
+	data: {
 		id: string;
 		kind: string;
 		name: string;
 		description: string;
 		tags: string[];
-		references: string[];
 		thumbnail_url: string;
-		author: {
-			name: string;
-			resolved: boolean;
-		};
 		version: string;
 		stats: {
 			likes: number;
@@ -21,19 +16,11 @@ export type UGCSearchResponse = {
 				recent: number;
 			};
 		};
-		created_at: string;
-		modified_at: string;
-		published_at: string;
-	}>;
+	};
 	additional: {
-		count: number;
-		paging: {
-			count: number;
-			offset: number;
-		};
 		parameters: {
-			author: string | null;
-			tags: string[];
+			id: string;
+			version: string;
 			kind: 'all' | 'ugcgamevariant' | 'map' | 'prefab';
 		};
 	};
