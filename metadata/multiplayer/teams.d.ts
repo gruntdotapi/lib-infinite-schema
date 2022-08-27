@@ -9,5 +9,6 @@ export type MetadataMultiplayerTeamsResponse = {
 		parameters: {
 			ids: number[];
 		};
+		version: string;
 	};
 };

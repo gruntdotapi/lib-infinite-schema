@@ -9,5 +9,6 @@ export type MetadataMultiplayerGameVariantsResponse = {
 		parameters: {
 			ids: number[];
 		};
+		version: string;
 	};
 };

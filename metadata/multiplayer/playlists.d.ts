@@ -35,5 +35,6 @@ export type MetadataMultiplayerPlaylistsResponse = {
 				| 'es-mx'
 				| 'zh-hk';
 		};
+		version: string;
 	};
 };

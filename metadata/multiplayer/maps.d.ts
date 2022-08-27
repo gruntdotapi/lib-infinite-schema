@@ -9,5 +9,6 @@ export type MetadataMultiplayerMapsResponse = {
 		parameters: {
 			ids: string[];
 		};
+		version: string;
 	};
 };

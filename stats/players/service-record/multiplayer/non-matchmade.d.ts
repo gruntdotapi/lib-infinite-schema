@@ -89,6 +89,9 @@ export type StatsPlayersServiceRecordMultiplayerNonMatchmadeResponse = {
 		};
 	};
 	additional: {
+		privacy: {
+			public: boolean;
+		};
 		parameters: {
 			gamertag: string;
 		};

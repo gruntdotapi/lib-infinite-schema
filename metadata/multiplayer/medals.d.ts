@@ -16,5 +16,6 @@ export type MetadataMultiplayerMedalsResponse = {
 		parameters: {
 			ids: number[];
 		};
+		version: string;
 	};
 };
