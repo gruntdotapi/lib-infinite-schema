@@ -1,5 +1,7 @@
 export type StatsPlayersCSRSResponse = {
 	data: Array<{
+		id: string;
+		name: string;
 		queue: 'open' | 'solo-duo' | null;
 		input: 'controller' | 'mnk' | 'crossplay' | null;
 		response: {
